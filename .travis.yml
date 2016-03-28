@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '5.0'
+deploy:
+  provider: npm
+  email: koddsson@gmail.com
+  api_key:
+    secure: X17pzTnjLM05wsqBSrEW0h0p0gMmqyuCqTJ8Sb2Yt97jnxJCY6XcLv3gKDhpPiARaPy0z0vaITPQ78fzbs4JdbLvKRDSUSd5ujEagKNy782L+PesOR+u+fYr2VsmAGO/OwuQF0yNWaxMXwAMMePkmNCCk3K6HVotnI3r8GpvyOVlS+CCNTqC+oraRxnuw2JmuXEH4YQiveUfpbySGMM4zydBmCpxC91eGRm9pByCrPDRw1bdz/20FVJFQkEl6E9QFDBKl8lPVxWLuUob1hJql8utN8pSMEtQasREiRIJc/wgUZO9Sa4dpKf7h9rXeql9NrOZNgy0IuAubhBT65iUx285i1kUSsU+TcxjFGJl1pVcobsC8JgY9HGbTwwl8Yyy/HimfgLwo2k/1c5gJ8WpxhXAyrGNi81+/2srpKvGu01y8pK8M6qreBkJpXScc5saJzS48VNV1WGPBcKVSYpMt0/m6wM9GZipoOB2AGNqjs4tMXWH8ixOsPAWFTP3vMqsSCj4EPScNPJITD3w6VYdBdy4ELwX+5JjTsasilZM3Y6Jee+3Ja0dIduuQs/V3iLPnvWucqZmDedcKqHFWDoNrha+6c4Etfs3cT+NarSRdJ/3iHxIk/SOH/RahBNokPgJIPo9gcYtAf7klT5T7PKCdQMa0TfnrK6PSvUcm+P/3m0=
+  on:
+    tags: true
+    repo: koddsson/gengi-cli
