@@ -1,5 +1,5 @@
 *
+!bin
 !lib/**/*.js
-lib/**/*.test.js
-index.js
-package.json
+!index.js
+!package.json
