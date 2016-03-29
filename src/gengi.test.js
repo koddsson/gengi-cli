@@ -60,8 +60,8 @@ describe('lib/gengi - unit', () => {
 })
 
 describe('lib/gengi - integration', () => {
-  const gengi = new Gengi()
-  it('should return array of currencies', (done) => {
+  xit('should return array of currencies', (done) => {
+    const gengi = new Gengi()
     gengi.list().then((currencies) => {
       expect(currencies).to.be.a('array')
       done()
@@ -71,7 +71,8 @@ describe('lib/gengi - integration', () => {
     })
   })
 
-  it('should return calculated and formatted number', (done) => {
+  xit('should return calculated and formatted number', (done) => {
+    const gengi = new Gengi()
     const fakeArgs = {
       currency: 'usd',
       value: 3,
