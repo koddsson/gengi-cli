@@ -8,18 +8,23 @@ Simple CLI for the excellent [gengi.is](http://gengi.is).
 $ npm install -g gengi-cli
 /usr/local/bin/gengi -> /usr/local/lib/node_modules/gengi-cli/bin/gengi
 /usr/local/lib
-└── gengi-cli@1.0.3
+└── gengi-cli@1.1.0
 ```
 
 ### Usage
 ```
-$ gengi help
-usage: gengi <currency> <value>
-currency (required): Standard three letter currency code (ISO 4217)
-value (optional): Numeric value, defaults to 1
+usage: gengi <currency> <value> [-r | --round] [-h | --help]
+
+currency:     Standard three letter currency code (ISO 4217)
+value:        Numeric value, defaults to 1
+-r | --round: Round calculated number
+-h | --help:  Show these instructions
+
+Other available commands
+gengi list    Display list of all available currencies
 ```
 #### Example
 ```
-$ gengi USD 100
+$ gengi usd 100
 12840.283
 ```
