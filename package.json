@@ -1,13 +1,31 @@
 {
   "name": "gengi-cli",
   "version": "1.1.1",
-  "description": "",
+  "description": "Simple CLI for the excellent gengi.is",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "test": "mocha --opts mocha.opts ./lib/**/*.test.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koddsson/gengi-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koddsson/gengi-cli/issues"
+  },
+  "author": {
+    "name": "Kristján Oddsson (koddsson)",
+    "email": "koddsson@gmail.com",
+    "url": "https://koddsson.com"
+  },
+  "contributors": [
+    {
+      "name": "Benedikt D Valdez (benediktvaldez)",
+      "email": "benediktvaldez@gmail.com",
+      "url": "http://bdvs.info"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.1.2",
