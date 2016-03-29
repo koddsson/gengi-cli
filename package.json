@@ -1,6 +1,6 @@
 {
   "name": "gengi-cli",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Simple CLI for the excellent gengi.is",
   "main": "index.js",
   "scripts": {
